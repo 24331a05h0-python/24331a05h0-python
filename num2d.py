@@ -1,0 +1,23 @@
+import numpy as np
+
+arr2D = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+print("2D Array:\n", arr2D)
+print("Dimension:", arr2D.ndim)
+print("Shape:", arr2D.shape)
+print("Size:", arr2D.size)
+print("Data type:", arr2D.dtype)
+print("Sum of all elements:", np.sum(arr2D))
+print("Sum along columns:", np.sum(arr2D, axis=0))
+print("Sum along rows:", np.sum(arr2D, axis=1))
+print("Maximum element:", np.max(arr2D))
+print("Minimum element:", np.min(arr2D))
+print("Average of elements:", np.mean(arr2D))
+print("Standard deviation:", np.std(arr2D))
+print("Cumulative sum:", np.cumsum(arr2D))
+print("Transpose of array:\n", np.transpose(arr2D))
+print("Flattened array:", arr2D.flatten())
+print("Unique elements:", np.unique(arr2D))
+print("Sorted array along axis 1:\n", np.sort(arr2D, axis=1))
+print("Index of maximum element:", np.argmax(arr2D))
+print("Index of minimum element:", np.argmin(arr2D))
