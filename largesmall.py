@@ -1,0 +1,5 @@
+lst = list(map(int, input("Enter numbers separated by commas: ").split(",")))
+largest = max(lst)
+smallest = min(lst)
+print("Largest number:", largest)
+print("Smallest number:", smallest)
