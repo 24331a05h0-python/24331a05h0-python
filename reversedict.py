@@ -1,5 +1,5 @@
-data = {"name": "sravs", "age": 20, "gender": "female"}
-value_to_find="sravs"
+data = {"name": "sravya", "age": 20, "gender": "female"}
+findvalue="sravya"
 for key, value in data.items():
-    if value == value_to_find:
+    if value == findvalue:
         print(key)
